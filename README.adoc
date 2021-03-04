@@ -1,0 +1,6 @@
+= wuerfeln
+
+== links
+
+* link:https://en.wikipedia.org/wiki/Poisson_limit_theorem[Poisson limit theorem]
+* link:https://de.wikipedia.org/wiki/Bernoulli-Verteilung[Bernoulli-Verteilung]
