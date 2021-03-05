@@ -26,7 +26,7 @@ def C(X,Y,Z):
 def C_Poisson(X,Y,Z):
     return sum([P_Poisson(X,Y,z) for z in range(Z,X+1)])
 def C_Sim(X,Y,Z, n=1000):
-    return sum(Counter(randrange(Y) for _ in range(X)).most_common(1)[0][1] >= Z for _ in range(n)) / n
+    return sum(Counter(randrange(Y) for _ in range(X))[1] >= Z for _ in range(n)) / n
 
 plt.plot([C(100,10,z) for z in range(100)])
 plt.plot([C_Poisson(100,10,z) for z in range(100)],"--")
